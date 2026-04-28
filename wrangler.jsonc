@@ -1,0 +1,16 @@
+{
+	"compatibility_date": "2025-10-08",
+	"main": "src/index.ts",
+	"name": "redirected-reader",
+	"upload_source_maps": true,
+	"observability": {
+		"enabled": true
+	},
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_name": "reader-cache-db",
+			"database_id": "f6aea069-bb5b-4217-9d76-f49723da7b17"
+		}
+	]
+}
